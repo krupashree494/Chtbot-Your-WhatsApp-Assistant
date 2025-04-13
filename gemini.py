@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Configure API key (Replace with your actual API key)
-genai.configure(api_key="AIzaSyB7g07gML59K_QbJI7L76GAVwMCy5jGT1A")
+genai.configure(api_key="your key")
 
 def aiProcess(command):
     """Generates a response where AI continues the conversation."""

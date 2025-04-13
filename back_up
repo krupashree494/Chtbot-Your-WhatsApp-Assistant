@@ -1,0 +1,33 @@
+import pyautogui
+import time
+import pyperclip
+
+# Wait for a moment to switch to the required window
+time.sleep(2)
+
+# Click on the icon at (1388,1046)
+pyautogui.click(1388, 1046)
+
+time.sleep(1)  # Wait for any response
+
+# Drag to select text from (675,266) to (1835,902)
+pyautogui.moveTo(675, 266)
+pyautogui.mouseDown()
+pyautogui.moveTo(1835, 902, duration=0.5)
+pyautogui.mouseUp()
+
+time.sleep(0.5)  # Allow some time for selection
+
+# Copy the selected text to clipboard
+pyautogui.hotkey('ctrl', 'c')
+
+# Click to deselect the content
+pyautogui.click(1846, 877)
+
+time.sleep(0.5)  # Wait for text to be copied
+
+# Retrieve the copied text
+copied_text = pyperclip.paste()
+
+# Print the copied text
+print("Copied Text:", copied_text)

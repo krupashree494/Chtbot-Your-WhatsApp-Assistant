@@ -3,7 +3,7 @@ import time
 import pyperclip
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyB7g07gML59K_QbJI7L76GAVwMCy5jGT1A")
+genai.configure(api_key="your key")
 
 # Keywords to detect when Rani is saying goodbye
 EXIT_KEYWORDS = ["bye", "see you", "goodnight", "take care", "goodbye", "gn", "later"]

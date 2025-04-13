@@ -1,6 +1,6 @@
-# 🤖 ALEX - Your WhatsApp Assistant
+# 🤖Chtbot - Your WhatsApp Assistant
 
-**ALEX** is a smart Python-based chatbot that can automatically respond to WhatsApp messages based on the scenario. Whether it's a casual chat, a reminder, or just a friendly reply while you're away—ALEX has got your back!
+Chtbot is a smart Python-based chatbot that can automatically respond to WhatsApp messages based on the scenario. Whether it's a casual chat, a reminder, or just a friendly reply while you're away—ALEX has got your back!
 
 ## 📌 Project Overview
 
@@ -13,10 +13,10 @@ This project demonstrates how automation can be used to handle WhatsApp messages
 
 ## 🛠️ Technologies Used
 
-- **Python** (Main language)
-- **pyautogui** (For GUI automation)
-- **time** & **datetime** (For scheduling and delays)
-- **Custom logic and conditions** for smart replies
+- Python (Main language)
+- pyautogui (For GUI automation)
+- time & datetime (For scheduling and delays)
+- Custom logic and conditions for smart replies
 
 ## 🎯 Features
 
